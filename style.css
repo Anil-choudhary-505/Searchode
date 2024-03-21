@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FEFAE0;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title { /* Added styles for the title */
+    margin-bottom: 20px;
+    font-size: 2em; /* Increase font size for emphasis */
+    font-weight: bold; /* Make the title bolder */
+    color: #333; /* Set a darker color for better contrast */
+  }
+  
+  #searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  #searchButton {
+    padding: 10px 20px;
+    background-color: #606C38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #searchButton:hover {
+    padding: 10px 20px;
+    background-color: #5f5c5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #definition {
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  /* Added CSS for navbar */
+  nav {
+    background-color: #DDA15E;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border: #283618 solid 2px;
+    border-radius: 150px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px; /* Add spacing between list items */      
+}
+  
+  nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #000; /* Change link color on hover */
+  }
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #283618;
+    color: white;
+    padding: 0;
+    text-align: center;
+  }
+  
